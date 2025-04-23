@@ -1,0 +1,35 @@
+body {
+    font-family: sans-serif;
+    background: #111;
+    color: white;
+    text-align: center;
+    padding: 2rem;
+  }
+  
+  .container {
+    max-width: 500px;
+    margin: auto;
+    background: #222;
+    padding: 2rem;
+    border-radius: 1rem;
+  }
+  
+  input, button {
+    display: block;
+    margin: 1rem auto;
+    padding: 0.5rem;
+    font-size: 1rem;
+  }
+  
+  button {
+    background: crimson;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .hidden {
+    display: none;
+  }
+  

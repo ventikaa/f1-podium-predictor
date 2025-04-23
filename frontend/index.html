@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>F1 Podium Predictor</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>🏁 F1 Podium Predictor</h1>
+
+    <form id="predict-form">
+      <label>Year:
+        <input type="number" id="year" min="2000" max="2025" required />
+      </label>
+
+      <label>Round (Race Number):
+        <input type="number" id="round" min="1" max="25" required />
+      </label>
+
+      <button type="submit">Predict Podium</button>
+    </form>
+
+    <div id="prediction-result" class="hidden">
+      <h2>Predicted Podium 🏆</h2>
+      <ol id="podium-list"></ol>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
